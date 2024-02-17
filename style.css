@@ -1,0 +1,39 @@
+/* body {
+  margin: 40px auto;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+} */
+body{margin:40px
+  auto;
+  max-width:650px;
+  line-height:1.6;
+  font-size:16px;
+  color:#334333;
+  padding:010px;
+  background-image:url('images/backgroundsite.gif');
+  background-repeat:repeat-y; /* repeat left and right */
+}
+
+  
+h1,h2,h3{line-height:1.2}
+
+h1 {
+  font-size: 20px;   
+  text-align: center;
+}
+aside {
+  text-align: center;
+}
+a {
+  color:blue;
+}
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+
+ul.b {
+  list-style-type: square;
+}
