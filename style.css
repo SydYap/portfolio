@@ -13,9 +13,13 @@ body{margin:40px
   font-family: Garamond, sans-serif;
   color: #334333;
   padding:010px;
-  background-image:url('images/backgroundsite.gif');
-  background-repeat:repeat-y; /* repeat left and right */
+  background-image:url('images/jitter.gif'), url('images/backgroundsite.gif');
+  background-size: 100%;
+  background-color:rgba(255, 248, 220, 0.38);
+  background-blend-mode:color-burn;
+ 
 }
+
 
 address{
   font-style: serif;
@@ -29,12 +33,12 @@ h1,h2,h3{
 h2,h3{
   color: rgba(0, 0, 0, 0.07);
   -webkit-text-stroke-width: 0.7px;
-  -webkit-text-stroke-color: rgba(0, 126, 0, 0.58) ;
-  font-size:25px;
+  -webkit-text-stroke-color: rgba(0, 255, 0, 0.847) ;
+  font-size:40px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  
-  
+  text-shadow: 2px 2px rgba(220, 220, 220, 0.52);
 }
+
 
 h1 {
   font-size: 20px;   
