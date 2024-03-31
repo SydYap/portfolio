@@ -53,6 +53,7 @@ h2,h3{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 2px 2px rgba(220, 220, 220, 0.52);
   letter-spacing: 10px;
+  text-align: center;
 }
 
 
@@ -75,6 +76,15 @@ a {
 a:hover, a:active {
   background-color: rgba(0, 128, 0, 0.505);
   color: white;
+}
+.nothing{
+  background-color: rgba(255, 192, 203, 0);
+  text-decoration: none;
+  color:red
+}
+.nothing:hover, .nothing:active{
+  background-color: rgba(255, 192, 203, 0);
+  text-decoration: none;
 }
 /* work */
 
@@ -214,5 +224,70 @@ input[type=submit]:hover {
 
 /* cddiv */
 img.cd:hover {
-  cursor: text;
+  cursor: url(images/cdcursor.png),pointer;
+}
+
+
+.opacity{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  transition: .5s ease;
+}
+
+.opacity:hover{
+  opacity: 1;
+}
+
+.introduction{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: rgb(0, 254, 254);;
+  font-size: 20px;
+  text-align: center;
+}
+.caption {
+  display: block;
+}
+
+.verticaal > div{
+  display: inline;
+
+}
+.verticaal img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+div.center{
+    position: absolute;
+    top: 20%;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    border: 5px dashed gainsboro;
+    padding: 0.5rem;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+div.werk{
+  background-color: aliceblue;
 }
