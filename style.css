@@ -1,28 +1,43 @@
-/* body {
-  margin: 40px auto;
-    margin-top: 40px;
-    margin-right: auto;
-    margin-bottom: 40px;
-    margin-left: auto;
-} */
+/* basics */
 body{margin:40px
   auto;
   max-width:650px;
   line-height:1.6;
-  font-size:16px;
+  font-size: larger;
   font-family: Garamond, sans-serif;
   color: #334333;
   padding:010px;
-  background-image:url('images/jitter.gif'), url('images/backgroundsite.gif');
   background-size: 100%;
   background-color:rgba(255, 248, 220, 0.38);
-  background-blend-mode:color-burn;
+  background-blend-mode:color-dodge;
  
 }
 
+ul.b {
+  list-style-type: square;
+  position: static;
+}
+li.b {
+  display: inline-flex;
+  color: green;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 15px;
+}
 
 address{
   font-style: serif;
+}
+
+p{
+  text-align: center;
+}
+aside{
+  letter-spacing: 5px;
+  font-style: italic;
 }
   
 h1,h2,h3{
@@ -34,9 +49,10 @@ h2,h3{
   color: rgba(0, 0, 0, 0.07);
   -webkit-text-stroke-width: 0.7px;
   -webkit-text-stroke-color: rgba(0, 255, 0, 0.847) ;
-  font-size:40px;
+  font-size:large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 2px 2px rgba(220, 220, 220, 0.52);
+  letter-spacing: 10px;
 }
 
 
@@ -45,25 +61,158 @@ h1 {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
-
+  letter-spacing: 20px;
 }
 
 
 aside {
   text-align: center;
 }
+
 a {
   color:blue;
 }
 a:hover, a:active {
-  background-color: green;
+  background-color: rgba(0, 128, 0, 0.505);
   color: white;
 }
+/* work */
 
-ul.b {
-  list-style-type: square;
+
+/* About */
+.mypronouns{
+  text-align: left;
+  font-size: small;
+  letter-spacing: normal;
 }
 
-footer {
-  font-size: 9px;
+.valop{
+  border-radius: 25px;
+  border: 5px dashed gainsboro;
+  padding: 0.5rem;
+  width: fit-content;
+  height: fit-content;
+
+}
+
+
+/* menulijst */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li a.menu {
+  display: inline-flex;
+  float: left;
+  color: green;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: medium;
+  font-family: monospace;
+  font-size: x-large;
+  background-color: rgba(184, 255, 255, 0.763);
+}
+@media screen and (max-width: 600px){
+  li a.menu {
+    font-size: 100%;
+  }
+  .active {
+    font-size: 100%;
+  }
+}
+
+li a.menu:hover:not(.active) {
+  background-color:  rgba(0, 0, 0, 0.07);
+  color: white;
+ 
+}
+.active {
+  display: inline-flex;
+  float: left;
+  color: wheat;
+  padding: 8px 16px;
+  text-decoration: revert-layer;
+  text-shadow: 2px 2px rgba(0, 0, 255, 0.222);
+  font-size: x-large;
+  font-family: monospace;
+}
+
+
+.pingui{
+ font-size: 10px;
+ 
+}
+
+/* agenda */
+th, td{
+  background-color:  rgba(221, 160, 221, 0.699);
+}
+th{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:  #f2f2f2;
+}
+td{
+  color:  #f2f2f2;
+  text-align: center;
+}
+
+
+.woow:hover {
+  color:  rgba(255, 0, 255, 0.699);
+  background-color: rgba(255, 255, 255, 0.23);
+}
+
+/* contact */
+
+hr{
+  border-top: 1px dotted rgba(255, 0, 200, 0.191);
+  border-bottom: 1px dotted rgba(255, 0, 200, 0.191);
+  border-left: rgba(255, 0, 200, 0.191);
+  border-right: rgba(255, 0, 200, 0.191);
+}
+
+.extrainfo{
+  font-size: 80%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:  #f2f2f2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: wheat;
+  padding: 20px;
+}
+
+
+/* cddiv */
+img.cd:hover {
+  cursor: text;
 }
