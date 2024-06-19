@@ -1,0 +1,394 @@
+/*media friendly*/
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+/* basics */
+body{margin:40px
+  auto;
+  max-width:650px;
+  line-height:1.6;
+  font-size: larger;
+  font-family: Garamond, sans-serif;
+  color: #334333;
+  padding:010px;
+  background-size: 100%;
+  background-color:rgba(255, 248, 220, 0.38);
+  background-blend-mode:color-dodge;
+ 
+}
+
+ul.b {
+  list-style-type: square;
+  position: static;
+}
+li.b {
+  display: inline-flex;
+  color: green;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 15px;
+}
+
+address{
+  font-style: serif;
+}
+
+p{
+  text-align: center;
+}
+aside{
+  letter-spacing: 5px;
+  font-style: italic;
+}
+  
+h1,h2,h3{
+  line-height:1.2;
+  font-style:sans-serif;
+
+}
+h2,h3{
+  color: rgba(0, 0, 0, 0.07);
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: rgba(0, 255, 0, 0.847) ;
+  font-size:large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px rgba(220, 220, 220, 0.52);
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 20px;   
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  letter-spacing: 20px;
+}
+
+
+aside {
+  text-align: center;
+}
+
+a {
+  color:blue;
+}
+a:hover, a:active {
+  background-color: rgba(0, 128, 0, 0.505);
+  color: white;
+}
+.nothing{
+  background-color: rgba(255, 192, 203, 0);
+  text-decoration: none;
+  color:red
+}
+.nothing:hover, .nothing:active{
+  background-color: rgba(255, 192, 203, 0);
+  text-decoration: none;
+}
+/* work */
+
+
+/* About */
+.mypronouns{
+  text-align: left;
+  font-size: small;
+  letter-spacing: normal;
+}
+
+.valop{
+  border-radius: 25px;
+  border: 5px dashed gainsboro;
+  padding: 0.5rem;
+  width: fit-content;
+  height: fit-content;
+
+}
+
+
+/* menulijst */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li a.menu {
+  display: inline-flex;
+  float: left;
+  color: green;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: medium;
+  font-family: monospace;
+  font-size: x-large;
+  background-color: rgba(184, 255, 255, 0.763);
+}
+
+li a.menu:hover:not(.active) {
+  background-color:  rgba(0, 0, 0, 0.07);
+  color: white;
+ 
+}
+.active {
+  display: inline-flex;
+  float: left;
+  color: wheat;
+  padding: 8px 16px;
+  text-decoration: revert-layer;
+  text-shadow: 2px 2px rgba(0, 0, 255, 0.222);
+  font-size: x-large;
+  font-family: monospace;
+}
+
+
+.pingui{
+ font-size: 10px;
+}
+
+/* agenda */
+th, td{
+  background-color:  rgba(221, 160, 221, 0.699);
+}
+th{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:  #f2f2f2;
+}
+td{
+  color:  #f2f2f2;
+  text-align: center;
+}
+
+
+
+.woow:hover {
+  color:  rgba(255, 0, 255, 0.699);
+  background-color: rgba(255, 255, 255, 0.23);
+}
+
+/* contact */
+
+hr{
+  border-top: 1px dotted rgba(255, 0, 200, 0.191);
+  border-bottom: 1px dotted rgba(255, 0, 200, 0.191);
+  border-left: rgba(255, 0, 200, 0.191);
+  border-right: rgba(255, 0, 200, 0.191);
+}
+
+.extrainfo{
+  font-size: 80%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:  #f2f2f2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: wheat;
+  padding: 20px;
+}
+
+
+/* cddiv */
+img.cd:hover {
+  cursor: url(images/cdcursor.png),pointer;
+}
+
+
+.opacity{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  transition: .5s ease;
+}
+
+.opacity:hover{
+  opacity: 1;
+}
+
+.introduction{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: rgb(0, 254, 254);;
+  font-size: 20px;
+  text-align: center;
+}
+.caption {
+  display: block;
+}
+
+.verticaal > div{
+  display: inline;
+
+}
+.verticaal img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+div.center{
+    position: absolute;
+    top: 20%;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    border: 5px dashed gainsboro;
+    padding: 0.5rem;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+div.album1{
+  position: absolute;
+  top: 20%;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 25px;
+  background-color: #0b13fd7a;
+  padding: 0.5rem;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+div.werk{
+  background-color: aliceblue;
+}
+
+.wordart {
+  font-family: Arial, sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.wordart.rainbow {
+  transform: scale(1, 1.5);
+  -webkit-transform: scale(1, 1.5);
+  -moz-transform: scale(1, 1.5);
+  -o-transform: scale(1, 1.5);
+  -ms-transform: scale(1, 1.5);
+}
+
+.wordart.rainbow .text {
+  background: red; 
+  background: -webkit-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af);
+  background: -o-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af);
+  background: -moz-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af);
+  background: linear-gradient(to right, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wordart {
+  font-family: Arial, sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wordart.tilt {
+    display: inline-block;
+    transform: scaleY(2) perspective(1em) rotateX(15deg) translate3d(-19%, -14%, -0.4em);
+    -webkit-transform: scaleY(2) perspective(1em) rotateX(15deg) translate3d(-19%, -14%, -0.4em);
+    -moz-transform: scaleY(2) perspective(1em) rotateX(15deg) translate3d(-19%, -14%, -0.4em);
+    -o-transform: scaleY(2) perspective(1em) rotateX(15deg) translate3d(-19%, -14%, -0.4em);
+    -ms-transform: scaleY(2) perspective(1em) rotateX(15deg) translate3d(-19%, -14%, -0.4em);
+}
+
+.wordart.tilt .text {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background: #390c0b;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…IgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top, #390c0b 0%, #f6bf28 73%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #390c0b), color-stop(73%, #f6bf28));
+    background: -webkit-linear-gradient(top, #390c0b 0%, #f6bf28 73%);
+    background: -o-linear-gradient(top, #390c0b 0%, #f6bf28 73%);
+    background: -ms-linear-gradient(top, #390c0b 0%, #f6bf28 73%);
+    background: linear-gradient(to bottom, #390c0b 0%, #f6bf28 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#390c0b', endColorstr='#f6bf28', GradientType=0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.01em;
+    -webkit-text-stroke: 0.01em #A3A3A3;
+    filter: progid:DXImageTransform.Microsoft.Glow(Color=#a3a3a3, Strength=1);
+}
+
+.wordart.tilt .text:before {
+    content: attr(data-text);
+    position: absolute;
+    z-index: -1;
+    top: 0.17em;
+    -webkit-text-fill-color: #6D4916;
+    -webkit-background-clip: border-box;
+    transform: perspective(1em) rotateX(65deg) scale(0.77);
+    -webkit-transform: perspective(1em) rotateX(65deg) scale(0.77);
+    -moz-transform: perspective(1em) rotateX(65deg) scale(0.77);
+    -o-transform: perspective(1em) rotateX(65deg) scale(0.77);
+    -ms-transform: perspective(1em) rotateX(65deg) scale(0.77);
+}
+
+/* Dashed border */
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
