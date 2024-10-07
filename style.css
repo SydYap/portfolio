@@ -50,7 +50,7 @@ header {
 }
 
 .nav-home a:hover{
-    color: pink;
+    color: rgb(0, 255, 21);
 }
 .myParagraph {
     width: 1000px;
